@@ -276,7 +276,6 @@ com.fasterxml.jackson.core.*;version=${project.version}
           </signature>
         </configuration>
       </plugin>
-
     </plugins>
   </build>
 
@@ -301,6 +300,11 @@ com.fasterxml.jackson.core.*;version=${project.version}
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.sonarsource.scanner.maven</groupId>
+      <artifactId>sonar-maven-plugin</artifactId>
+      <version>5.1.0.4751</version>
     </dependency>
   </dependencies>
 
